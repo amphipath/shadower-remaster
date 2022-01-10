@@ -144,7 +144,7 @@ So Bloody Explosion does less damage than Meso Explosion at 7+ coins, has a cool
 
 ### Sonic Blow adjustments
 
-https://user-images.githubusercontent.com/12583972/148732024-dad27bd3-bd22-4a0e-8318-689d3ddbfd8d.mp4
+<video src="https://user-images.githubusercontent.com/12583972/148732024-dad27bd3-bd22-4a0e-8318-689d3ddbfd8d.mp4"></video>
 
 Sonic Blow had a 80 second cooldown that could be reduced further by attacking with Killing Points. It has been reduced to 45 seconds fixed because Killing Points have been removed. Sonic Blow now inflicts Wound Stacks on the highest HP enemy attacked and can be cancelled with Eviscerate. If cancelling with Eviscerate causes damage loss, then Sonic Blow's cooldown is reduced by 2.5 seconds for each tick of damage lost (total of 15 ticks possible).
 
