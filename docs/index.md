@@ -279,6 +279,7 @@ I'm going to go through various aspects of the pre-remaster Shadower. Some are g
 ### Suggestions / Hopes for subsequent changes
 
 * **Remove the cooldown on Bloody Explosion**. This is the biggest point. There are other ways to impose cooldowns (if the intention is to prevent people from doing A-M-A-M) which are controlled completely client side.
+* **Unify the range of Nate 1 and Nate 2**. Increasing the range of Nate 2 but not Nate 1 makes no difference in bossing because we will still be standing in range to use Nate 1. It creates even more awkward situations when mobbing with Assassinate too. Please increase Nate 1's y-axis to match Nate 2's.
 * **Increase the damage of Cruel Stab to 300%**. Pls, I need to one-shot Hotel Arcs. Gimme back the damage I lost from the first line-split.
 * **Instead of Bloody Pocket being a toggle, have Bloody Explosion be an alternate skill that uses Pickpocket normal coins**. The only purpose of Bloody Pocket right now is to switch Meso Explosion to Bloody Explosion. I would prefer having Meso Explosion and Bloody Explosion be usable at the same time without toggling, rather than save one keybind, so that I don't have to put up with toggling.
 * If the above isn't an option, **increase the damage of Bloody Explosion so that it does more damage at every amount of coins**. For example, have it increase by 15%p per coin instead of 10%.
