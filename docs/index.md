@@ -144,7 +144,7 @@ So Bloody Explosion does less damage than Meso Explosion at 7+ coins, has a cool
 
 ### Sonic Blow adjustments
 
-(mp4)
+https://user-images.githubusercontent.com/12583972/148732024-dad27bd3-bd22-4a0e-8318-689d3ddbfd8d.mp4
 
 Sonic Blow had a 80 second cooldown that could be reduced further by attacking with Killing Points. It has been reduced to 45 seconds fixed because Killing Points have been removed. Sonic Blow now inflicts Wound Stacks on the highest HP enemy attacked and can be cancelled with Eviscerate. If cancelling with Eviscerate causes damage loss, then Sonic Blow's cooldown is reduced by 2.5 seconds for each tick of damage lost (total of 15 ticks possible).
 
@@ -267,6 +267,8 @@ I'm going to go through various aspects of the pre-remaster Shadower. Some are g
 
 * <p style="color:#234F1E;font-weight:bold">Bloody Explosion solves a lot of the issues with old Meso Explosion.</p> The fact that it's a fixed attack means we don't have to wait for coin travel time, so it's more consistent on whether we're getting the Killing Point buff. The animation cancel was removed, which might be upsetting to some people who think attack speed is more important above all else, but from a game design standpoint it was necessary because having it undocumented is not acceptable, but there wasn't any rational reason for the cancel to be there either. If weaving was to cancel Assassinate, then why not just reduce the animation delay of Assassinate overall (which is what they did to Nate 1 anyway)?
 * <p style="color:#800000;font-weight:bold">But it also repeats a lot of the issues with old Meso Explosion, too.</p> The cast animation of Meso Explosion was removed for a reason; why add it back and purposefully engineer it to be slower than Nate 2 which would re-create the old problem that you already solved? The only rational explanation I can think of would be to penalise Sticky-Keys users who would effectively spam Bloody Explosion with no regard to timing and mess up their Assassinates because of the cooldown and the animation. If the intention is to force A-M-A, then I don't like it, but it's not my decision to make. 
-* <p style="color:#800000;font-weight:bold">Bloody Explosion's cooldown is a major problem for high-latency users.</p> Cooldowns are server-sided. When you use a skill, it communicates to the server that the skill was used, and then the server tells the client to put it on a cooldown. This means that high-latency users will have the 0.7 second cooldown start as late as 0.5 seconds after the button was pressed, basically making it so that they can't get a Bloody Explosion in within every Nate 1, losing out on a huge amount of damage from the Murderous Intent buff.
+* <p style="color:#800000;font-weight:bold">Bloody Explosion's cooldown is a major problem for high-latency users.</p> 
+https://user-images.githubusercontent.com/12583972/148732229-91775d0c-11cb-4854-b848-f930badc2686.mp4
+Cooldowns are server-sided. When you use a skill, it communicates to the server that the skill was used, and then the server tells the client to put it on a cooldown. This means that high-latency users will have the 0.7 second cooldown start as late as 0.5 seconds after the button was pressed, basically making it so that they can't get a Bloody Explosion in within every Nate 1, losing out on a huge amount of damage from the Murderous Intent buff.
 
 
