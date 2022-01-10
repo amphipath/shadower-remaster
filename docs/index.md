@@ -36,7 +36,7 @@ Double Stab now hits 5 targets in a small area.
 
 ### Dark Flare redesign
 
-(MapleStoryT_oBux28n1h7.mp4)
+<video src="https://user-images.githubusercontent.com/12583972/148745199-c8f71ae7-cfe8-463e-9f86-c7dac48b9b9e.mp4" controls="controls" style="max-width: 730px;"></video>
 
 Dark Flare now hits 3 targets, up from 1. Damage reflection functionality removed. Attack interval from 900ms to 930ms.
 
