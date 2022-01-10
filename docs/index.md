@@ -48,7 +48,7 @@ Time from install to first attack reduced.
 
 <img src="assets/flare3.png">
 
-Leftward range reduced by 1px, rightward range increased by 1px.
+Forward range reduced by 1px, backward range increased by 1px.
 
 ### Savage Blow adjustment
 
@@ -72,7 +72,7 @@ By 30ms.
 
 <img src="assets/smoke1.png">
 
-Size increased: +40px upward range, +40px downward range, +80px leftward range. Cast delay reduced from 900ms to 810ms. Superstance while casting.
+Size increased: +40px upward range, +40px downward range, +80px forward range. Cast delay reduced from 900ms to 810ms. Superstance while casting.
 
 <img src="assets/smoke2.png">
 
