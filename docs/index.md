@@ -327,15 +327,15 @@ Fixed an issue where sometimes normal meso on the field was consumed.
 
 ### Assassinate
 
-<img src="12nate1.png">
+<img src="assets/12nate1.png">
 
-<img src="12nate1animation.png">
+<img src="assets/12nate1animation.png">
 
 Nate 1 animation reduced by 30ms. This was done by removing the final frame of the animation. Because each frame has a minimum of 30ms in the animation regardless of attack speed, this removal will improve 0 attack speed users disproportionately.
 
-<img src="12nate2.png">
+<img src="assets/12nate2.png">
 
-<img src="12nate2animation.png">
+<img src="assets/12nate2animation.png">
 
 Nate 2 animation reduced by 60ms. This was done by removing the final frame as well. skillPlus reference to Meso Explosion was added back, so animation cancelling is back. Because the first 6 frames of Nate 2's animation is unchanged, animation-cancelling has the same action delay as pre-remaster.
 
@@ -345,13 +345,13 @@ It's fucking fast now. And it'll be even better at 0 attack speed. Only issue is
 
 ### Bloody Explosion
 
-<img src="12blexrangeincrease.png">
+<img src="assets/12blexrangeincrease.png">
 
 Forward range increased by 55px, upward range increased by 90px.
 
 ### Shadow Assault
 
-<img src="12assault.png">
+<img src="assets/12assault.png">
 
 A tag "isBeneficial" has been added to invoke a special logic to preserve the buff gained from the 1st 3 uses of Shadow Assault.
 
