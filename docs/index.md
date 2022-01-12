@@ -2,6 +2,9 @@
 
 I'm a level 271 Shadower in MapleSEA. Been playing this class since I fell in love with it in RED, and the remaster is a significant event that's going to affect us for years to come. So I'd like to share my thoughts on the remaster while I can, whether or not it sways the decisions behind these changes.
 
+**2022-01-12:** New KMST changes to the remaster. Added more comments at the bottom.
+
+* Table of Contents
 {:toc}
 
 ## Convenience changes
