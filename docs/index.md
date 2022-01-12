@@ -299,7 +299,7 @@ I'm going to go through various aspects of the pre-remaster Shadower. Some are g
 Wow, adjustments within 6 days.
 
 ## Developer Notes
-In the 12th January update, the usability of Assassinate and improvement of key attacking skills are in focus.
+> In the 12th January update, the usability of Assassinate and improvement of key attacking skills are in focus.
 First of all, we would like to inform you about the changes related to the action delay of Assassinate. In the 6th January Test World update, the action delay of the first hit of Assassinate was significantly reduced in exchange for the removal of animation cancelling with Meso Explosion and Bloody Explosion. The main issues caused by this change are as follows:
 Firstly, the action delay of the final hit of Assassinate is the same as pre-remaster, but the use of Assassinate in field hunting was inconvenient as the animation could no longer be cancelled.
 Secondly, depite the decrease in the action delay of the first hit of Assassinate, the sum of the action delays between the two attacks is longer than when the final hit of ASsassinate was cancelled with the pre-remaster mechanics.
