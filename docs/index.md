@@ -348,6 +348,10 @@ Nate 2 animation reduced by 60ms. This was done by removing the final frame as w
 
 It's fucking fast now. And it'll be even better at 0 attack speed. Only issue is if the 0 attack speed users have high latency (thoughts n prayers go out to GMS).
 
+<video src="https://user-images.githubusercontent.com/12583972/149147534-a8d8befe-555d-4451-9b90-629e425bf121.mp4" controls="controls" style="max-width: 730px;"></video>
+
+If Murderous Nate 2 doesn't hit anything, Murderous Intent is no longer consumed.
+
 ### Bloody Explosion
 
 <img src="assets/12blexrangeincrease.png">
