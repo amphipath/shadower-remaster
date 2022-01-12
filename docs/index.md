@@ -273,7 +273,7 @@ I'm going to go through various aspects of the pre-remaster Shadower. Some are g
 * <span style="color:#234F1E;font-weight:bold">Shadower's deal cycle is a lot more transparent now.</span> It's pretty clear what you have to do to deal damage; turn on Bloody Explosion and start attacking. A minor improvement would be if it was specified that it was to be used inside Nate 1 and not Nate 2, but compared to before it's a lot more well-defined and you don't need to be nearly as autistic as I was to learn how to play Shadower.
 * <span style="color:#234F1E;font-weight:bold">Bloody Explosion solves a lot of the issues with old Meso Explosion.</span> The fact that it's a fixed attack means we don't have to wait for coin travel time, so it's more consistent on whether we're getting the Killing Point buff. The animation cancel was removed, which might be upsetting to some people who think attack speed is more important above all else, but from a game design standpoint it was necessary because having it undocumented is not acceptable, but there wasn't any rational reason for the cancel to be there either. If weaving was to cancel Assassinate, then why not just reduce the animation delay of Assassinate overall (which is what they did to Nate 1 anyway)?
 * <span style="color:#800000;font-weight:bold">But it also repeats a lot of the issues with old Meso Explosion, too.</span> The cast animation of Meso Explosion was removed for a reason; why add it back and purposefully engineer it to be slower than Nate 2 which would re-create the old problem that you already solved? The only rational explanation I can think of would be to penalise Sticky-Keys users who would effectively spam Bloody Explosion with no regard to timing and mess up their Assassinates because of the cooldown and the animation. If the intention is to force A-M-A, then I don't like it, but it's not my decision to make. 
-* <span style="color:#800000;font-weight:bold">Bloody Explosion's cooldown is a major problem for high-latency users.</span> <br> <video src="https://user-images.githubusercontent.com/12583972/148732229-91775d0c-11cb-4854-b848-f930badc2686.mp4" controls="controls" style="max-width: 730px;"></video> <br> Cooldowns are server-sided. When you use a skill, it communicates to the server that the skill was used, and then the server tells the client to put it on a cooldown. This means that high-latency users will have the 0.7 second cooldown start as late as 0.5 seconds after the button was pressed, basically making it so that they can't get a Bloody Explosion in within every Nate 1, losing out on a huge amount of damage from the Murderous Intent buff.
+* <span style="color:#800000;font-weight:bold">Bloody Explosion's cooldown is a major problem for high-latency users.</span> <br> <video src="https://user-images.githubusercontent.com/12583972/148732229-91775d0c-11cb-4854-b848-f930badc2686.mp4" controls="controls" style="max-width: 730px;"></video> <br> Cooldowns are server-sided. When you use a skill, it communicates to the server that the skill was used, and then the server tells the client to put it on a cooldown. This means that high-latency users will have the 0.7 second cooldown start as late as 0.5 seconds after the button was pressed, basically making it so that they can't get a Bloody Explosion in within every Nate 1, losing out on a huge amount of damage from the Murderous Intent buff. The effect of latency is three-fold because Bloody Explosion needs to register a hit before giving Murderous Intent, and because the coins dropping from Bloody Pocket is delayed by latency too. So latency affects coin drop, then it affects the cooldown of Bloody Explosion, and once you manage to finally cast Bloody Explosion, latency affects the registration of Bloody Explosion's hit and the application of Murderous Intent.
 * <span style="color:#800000;font-weight:bold">I despise toggles.</span> I don't like Mechanic's situation between Tank Mode and Siege Mode and un-mounted, neither do I like toggling Vengeance of Angel on Bishop, and Pickpocket/Bloody Pickpocket is basically the same thing. One of the things I liked about Shadower before is that it didn't have dedicated bossing/mobbing modes. This is a minor point however, and something I'll easily get over.
 * <span style="color:#234F1E;font-weight:bold">Convenience changes are all great.</span> Smokescreen not breaking dark sight, smokescreen superstance during cast, animation reduction on Cruel Stab, Cruel Stab y-axis, Flip the Coin being permanent, Steal, etc.
 * <span style="color:#234F1E;font-weight:bold">Steal toggle makes Shadowers a lot more tanky in bosses with minions like Lucid and Hilla.</span> Each minion is another 100% HP/MP full heal. With summon spam like Lucid it's borderline broken.
@@ -292,3 +292,69 @@ I'm going to go through various aspects of the pre-remaster Shadower. Some are g
 * **Instead of Bloody Pocket being a toggle, have Bloody Explosion be an alternate skill that uses Pickpocket normal coins**. The only purpose of Bloody Pocket right now is to switch Meso Explosion to Bloody Explosion. I would prefer having Meso Explosion and Bloody Explosion be usable at the same time without toggling, rather than save one keybind, so that I don't have to put up with toggling.
 * If the above isn't an option, **increase the damage of Bloody Explosion so that it does more damage at every amount of coins**. For example, have it increase by 15%p per coin instead of 10%.
 * **Change the art of Bloody Explosion and Murderous Intent to be less obviously red**. Make the red part a smaller part of the graphic, idk. Just make it subtler.
+
+
+# 12th January KMST changes
+
+Wow, adjustments within 6 days.
+
+## Developer Notes
+In the 12th January update, the usability of Assassinate and improvement of key attacking skills are in focus.
+First of all, we would like to inform you about the changes related to the action delay of Assassinate. In the 6th January Test World update, the action delay of the first hit of Assassinate was significantly reduced in exchange for the removal of animation cancelling with Meso Explosion and Bloody Explosion. The main issues caused by this change are as follows:
+Firstly, the action delay of the final hit of Assassinate is the same as pre-remaster, but the use of Assassinate in field hunting was inconvenient as the animation could no longer be cancelled.
+Secondly, depite the decrease in the action delay of the first hit of Assassinate, the sum of the action delays between the two attacks is longer than when the final hit of ASsassinate was cancelled with the pre-remaster mechanics.
+To solve the above problems, we would like to improve the sense of control in bosses by modifying the overall action delay of Assassinate such that the sum of action delays is shorter than the animation-cancelled pre-remaster Assassinate.
+In addition, the pre-remaster animation cancellation of Assassinate's final hit was added back to improve the sense of control in field hunting.
+In addition to improving the delay of Assassinate, we also want to improve Assassinate and Bloody Explosion to preferably attack enemies with high maximum HP within the attack range. In addition, the range of attack in Bloody Explosion is adjusted to be in line with its skill effect, and the usage count status of Shadow Assault is improved to be preserved with Buff Freezers.
+
+### Double Stab improvement
+
+<img src="assets/12doublestab.png">
+
+Forward and backward ranges increased by 15px. Upward and downward ranges increased by 10px.
+
+### Thief Agility
+
+Now no longer breaks Dark Sight. Still can't be used with the flash jump.
+
+### Pickpocket
+
+Fixed an issue where sometimes dropped coins could not be used.
+
+### Meso Explosion
+
+Fixed an issue where sometimes normal meso on the field was consumed.
+
+### Assassinate
+
+<img src="12nate1.png">
+
+<img src="12nate1animation.png">
+
+Nate 1 animation reduced by 30ms. This was done by removing the final frame of the animation. Because each frame has a minimum of 30ms in the animation regardless of attack speed, this removal will improve 0 attack speed users disproportionately.
+
+<img src="12nate2.png">
+
+<img src="12nate2animation.png">
+
+Nate 2 animation reduced by 60ms. This was done by removing the final frame as well. skillPlus reference to Meso Explosion was added back, so animation cancelling is back. Because the first 6 frames of Nate 2's animation is unchanged, animation-cancelling has the same action delay as pre-remaster.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lBBJsjjJjkM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+It's fucking fast now. And it'll be even better at 0 attack speed. Only issue is if the 0 attack speed users have high latency (thoughts n prayers go out to GMS).
+
+### Bloody Explosion
+
+<img src="12blexrangeincrease.png">
+
+Forward range increased by 55px, upward range increased by 90px.
+
+### Shadow Assault
+
+<img src="12assault.png">
+
+A tag "isBeneficial" has been added to invoke a special logic to preserve the buff gained from the 1st 3 uses of Shadow Assault.
+
+## Opinions
+
+The real issues with the remaster were the latency issues and the up-jump with flash jump interaction. Neither of those were addressed but hey, 0 attack speed users just got ridiculously overbuffed. We were already going to benefit a lot in damage output before this 12th Jan adjustment and now it's an order of magnitude better. Latency related issues are complex and understandably take a very long time to address, so I understand why it's not in here. Thief Agility should've been totally fixed, though.
