@@ -342,7 +342,7 @@ Nate 1 animation reduced by 30ms. This was done by removing the final frame of t
 
 <img src="assets/12nate2animation.png">
 
-Nate 2 animation reduced by 60ms. This was done by removing the final frame as well. skillPlus reference to Meso Explosion was added back, so animation cancelling is back. Because the first 6 frames of Nate 2's animation is unchanged, animation-cancelling has the same action delay as pre-remaster.
+Nate 2 animation reduced by 60ms. This was done by removing the final frame as well. skillPlus reference to Meso Explosion was added back, so animation cancelling with Meso Explosion is back (not for Bloody). Because the first 6 frames of Nate 2's animation is unchanged, animation-cancelling has the same action delay as pre-remaster.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lBBJsjjJjkM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
