@@ -300,12 +300,12 @@ Wow, adjustments within 6 days.
 
 ## Developer Notes
 > In the 12th January update, the usability of Assassinate and improvement of key attacking skills are in focus.
-First of all, we would like to inform you about the changes related to the action delay of Assassinate. In the 6th January Test World update, the action delay of the first hit of Assassinate was significantly reduced in exchange for the removal of animation cancelling with Meso Explosion and Bloody Explosion. The main issues caused by this change are as follows:
-Firstly, the action delay of the final hit of Assassinate is the same as pre-remaster, but the use of Assassinate in field hunting was inconvenient as the animation could no longer be cancelled.
-Secondly, depite the decrease in the action delay of the first hit of Assassinate, the sum of the action delays between the two attacks is longer than when the final hit of ASsassinate was cancelled with the pre-remaster mechanics.
-To solve the above problems, we would like to improve the sense of control in bosses by modifying the overall action delay of Assassinate such that the sum of action delays is shorter than the animation-cancelled pre-remaster Assassinate.
-In addition, the pre-remaster animation cancellation of Assassinate's final hit was added back to improve the sense of control in field hunting.
-In addition to improving the delay of Assassinate, we also want to improve Assassinate and Bloody Explosion to preferably attack enemies with high maximum HP within the attack range. In addition, the range of attack in Bloody Explosion is adjusted to be in line with its skill effect, and the usage count status of Shadow Assault is improved to be preserved with Buff Freezers.
+> First of all, we would like to inform you about the changes related to the action delay of Assassinate. In the 6th January Test World update, the action delay of the first hit of Assassinate was significantly reduced in exchange for the removal of animation cancelling with Meso Explosion and Bloody Explosion. The main issues caused by this change are as follows:
+> Firstly, the action delay of the final hit of Assassinate is the same as pre-remaster, but the use of Assassinate in field hunting was inconvenient as the animation could no longer be cancelled.
+> Secondly, depite the decrease in the action delay of the first hit of Assassinate, the sum of the action delays between the two attacks is longer than when the final hit of Assassinate was cancelled with the pre-remaster mechanics.
+> To solve the above problems, we would like to improve the sense of control in bosses by modifying the overall action delay of Assassinate such that the sum of action delays is shorter than the animation-cancelled pre-remaster Assassinate.
+> In addition, the pre-remaster animation cancellation of Assassinate's final hit was added back to improve the sense of control in field hunting.
+> In addition to improving the delay of Assassinate, we also want to improve Assassinate and Bloody Explosion to preferably attack enemies with high maximum HP within the attack range. In addition, the range of attack in Bloody Explosion is adjusted to be in line with its skill effect, and the usage count status of Shadow Assault is improved to be preserved with Buff Freezers.
 
 ### Double Stab improvement
 
