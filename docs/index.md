@@ -7,6 +7,8 @@ I'm a level 271 Shadower in MapleSEA. Been playing this class since I fell in lo
 * Table of Contents
 {:toc}
 
+# 6th January: First Remaster patch
+
 ## Convenience changes
 
 These are the most uninteresting changes, so I'll quickly get them over with.
